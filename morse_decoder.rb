@@ -27,6 +27,10 @@
   '--..' => 'Z'
 }
 
+def decode_letter(letter)
+  @dictionary[letter]
+end
+
 def decode_word(word)
   @letters = word.split
   @current_word = ''
