@@ -24,36 +24,18 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 morse-decoder <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[morse-decoder]** is a program that allows the user to input morse code and convert the message into English words.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Programming language</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby</a></li>
   </ul>
 </details>
 
@@ -61,11 +43,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Clean code using rubocop linters]**
+- **[Morse decoder functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,9 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+Not available.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,91 +60,32 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+To run this project you need to have installed [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and a code editor, we are using [Visual Studio Code](https://code.visualstudio.com/download) with Code runner extension, this is a [video](https://www.youtube.com/watch?v=bDSIzatb1N4) explaining how to configure Code runner.
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:OscarFMdev/morse-decoder.git
 ```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, add a parameter to decoding-message function, separating each word with 3 spaces and each letter using 1 space and then right-click on the text editor to run with the Code runner extension.
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1: Oscar Fernández Muñoz**
 
@@ -176,11 +94,10 @@ Example:
 - LinkedIn: [LinkedIn](https://linkedin.com/in/OscarFMdev)
 
 
-👤 **Author2**
+👤 **Lucas Comamala García**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lucascomamala](https://github.com/lucascomamala)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-comamala/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,11 +105,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[A Graphical User Interface]**
+- [ ] **[Inverse decoding]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,9 +124,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give this repo a star and reach out on our social media, and we will be happy to know about it! 😃
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,9 +132,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank the [Wikipedia Page](https://en.wikipedia.org/wiki/Morse_code) for showing us how the morse code works.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,15 +140,13 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **How can I contribute?**
 
-- **[Question_1]**
+  - Please send us a message on our social media and we will let you contribute.
 
-  - [Answer_1]
+- **What if I have problems running this project?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - Let us know on our social media DMs, we will be happy to help you.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -246,6 +154,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
